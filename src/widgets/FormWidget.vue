@@ -102,6 +102,18 @@ const isFormValid = computed(() => {
 </template>
 
 <style scoped>
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 400px;
+    background-color: rgb(255, 190, 69);
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .text {
     font-size: 21px;
     font-weight: 500;

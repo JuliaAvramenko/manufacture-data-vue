@@ -1,7 +1,3 @@
-// import HomePage from '@/HomePage.vue';
-// import ResultPage from '@/ResultPage.vue';
-// import HomePage from '../pages/HomePage.vue';
-// import ResultPage from '../pages/ResultPage.vue';
 import HomePage from '@/pages/HomePage.vue';
 import ResultPage from '@/pages/ResultPage.vue';
 import { useFormStore } from '@/stores/form';
